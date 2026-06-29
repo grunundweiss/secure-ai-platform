@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (Critical to ignore)
+.venv/
+venv/
+ENV/
+env/
+
+# Integration Testing Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Databases (Do not push your test/runtime databases to GitHub)
+*.db
+*.sqlite
+*.sqlite3
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
